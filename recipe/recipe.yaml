@@ -31,6 +31,8 @@ requirements:
 tests:
   - package_contents:
       strict: true
+      files:
+        - etc/conda/test-files/py-serializable/**
       site_packages:
         - py_serializable/**
         - py_serializable-${{ version }}.dist-info/**
